@@ -64,11 +64,11 @@ The stylesheet is saved in CSS/style.css and provides styling for the website
 
 The website uses a dark football-inspired colour scheme
 
-- Dark navy (#050b14): Main website background
-- Dark grey (#111 and #222): Used for the header, footer and navigation background
-- Blue (#1683ff): Used for navigation hover effects, buttons and highlights
-- Dark blue (#0f6dcc): Used as the button hover background
-- Gold (#d4af37): Used for content cards, player cards and service cards
+- Dark navy  Main website background
+- Dark grey : Used for the header, footer and navigation background
+- Blue (: Used for navigation hover effects, buttons and highlights
+- Dark blue : Used as the button hover background
+- Gold: Used for content cards, player cards and service cards
 - White: Used for text to provide contrast against dark backgrounds
 
 4.2 Font and Typography
@@ -117,8 +117,8 @@ The footer uses a dark background with white, centred text, 20px padding and a t
 
 CSS media queries are used to adjust the website layout for different screen sizes
 
-- Tablet screens (900px and below): The player grid changes from three columns to two columns
-- Mobile screens (600px and below): The main content width changes to 95%, navigation links are arranged vertically, and the player grid changes to one column
+- Tablet screens : The player grid changes from three columns to two columns
+- Mobile screens : The main content width changes to 95%, navigation links are arranged vertically, and the player grid changes to one column
 
 These adjustments help the website display more effectively on smaller screens
 
@@ -306,7 +306,7 @@ The following online resources were used as learning and technical references du
 10. https://www.maplibre.org/maplibre-gl-js/docs/ 
 
 
-Accessed: 15 October, 18 October, 27 October and 28 October 2026
+
 
 ⸻
 
