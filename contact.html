@@ -1,0 +1,87 @@
+<!DOCTYPE html >
+<html lang="en">
+    <head>
+        <title>Contact Us - Football ultimate Hub</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Contact Football Ultimate Hub with questions about football news, player information and Ultimate Team guides. for football news, Player information and Ultimate Team guides.">
+        <meta name="Keywords" content="football, Ultimate Team, football news, player information">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://unpkg.com/maplibre-gl@5.6.2/dist/maplibre-gl.css" rel="stylesheet">
+        <link rel="stylesheet" href="CSS/style.css">
+        <script src="https://unpkg.com/maplibre-gl@5.6.2/dist/maplibre-gl.js" defer></script>
+        <script src="JS/script.js" defer></script>
+      
+    
+    <style>
+        body{
+            background-color:#050505;
+            color:white;
+            font-family: Arial, sans-serif;
+
+        }
+        nav a {
+         color: white;
+        text-decoration: none;
+        font-weight: bold;
+        margin-right: 25px;
+        }
+
+        nav a:hover {
+         color: #1683ff;
+        }
+
+    </style>
+    </head>
+    <body>
+    <header>
+    <nav>
+
+    <img src="Images/logo FUH.jpeg" 
+    alt="Football Ultimate Hub logo"
+    style="width:70px; height:85px;">
+
+    <a href="home.html">Home|</a>
+    <a href="about.html">About us</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact us</a>
+    </nav>
+</header>
+<main>
+    <h1>Contact Football Ultimate Hub</h1>
+    <p>
+        We would love to hear from you! Contact Football Ultimate Hub.
+        
+    </p>
+    <h2>Our Contact Details
+
+    </h2>
+    <p><strong>Email:</strong> footballultimatehub@gmail.com</p>
+    <p><strong>Phone:</strong> 0123456789</p>
+    <p><strong>Location:</strong>Nasrec, Johannesburg, South Africa</p>
+    <h2>Send Us a Message</h2>
+
+    <!-- Interactive map of the stadiium-->
+     <section class="stadium-map">
+        <h2>Find FNB Stadum</h2>
+        <p>Explore the location of FNB Stadium in johannesburg</p>
+        <div id="stadiumMap"></div>
+     </section>
+
+    <form id="contactForm">
+        <label for="contactName">Contact Name:</label><br>
+        <input type="text" id="contactName" name="name" required minlength="2"><br><br>
+
+        <label for="contactEmail">Email Address:</label><br>
+        <input type="email" id="contactEmail" name="email" required><br><br>
+
+        <label for="contactMessage">Your Message:</label><br>
+        <textarea id="contactMessage" name="message" rows="5" required minlength="10"></textarea><br><br>
+
+        <button type="submit">Send Message</button>
+        <p id="contactFeedback" aria-live="polite"></p>
+    </form>
+</main>
+<footer> &copy;St10521479</footer>
+
+    </html>

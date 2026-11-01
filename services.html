@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>services page</title>
+         <meta name="description" content="Explore Football Ultimate Hub services, including football, player information and Ultimate Team guides"> 
+        <meta name="Keywords" content="football services, Ultimate Team guides,player information, football news">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="JS/script.js" defer></script>
+    </head>
+    <style>
+        body{
+            background-color:#050505;
+            color:white;
+            font-family: Arial, sans-serif;
+        }
+        nav a {
+         color: white;
+        text-decoration: none;
+        font-weight: bold;
+        margin-right: 25px;
+        }
+
+        nav a:hover {
+         color: #1683ff;
+        }
+
+    </style>
+    <header>
+    <nav>
+
+    <img src="Images/logo FUH.jpeg"
+    alt="Football Ultimate Hub logo"
+     style="width: 70px; height:85px;">
+    <a href="home.html">Home|</a>
+    <a href="about.html">About us</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">gallery</a>
+    <a href="contact.html">Contact us</a>  
+    </nav>
+</header> <main> 
+    
+    <h1>Football Ultimate Hub Services</h1>
+
+<h2>Ultimate Team Player Information</h2>
+<p>
+Football Ultimate Hub provides information about Ultimate Team players,
+including their ratings, positions, attributes and roles.
+</p>
+
+<h2>Squad Building</h2>
+<p>
+Build and improve your Ultimate Team squad by selecting players based on
+their positions, ratings and overall team requirements.
+</p>
+
+<h2>Squad Building Challenges</h2>
+<p>
+Learn about Squad Building Challenges and the requirements needed to
+complete different challenges and improve your Ultimate Team.
+</p>
+
+<h2>Ultimate Team Tips & Guides</h2>
+<p>
+Discover useful tips and guides to help you build stronger squads,
+manage your players and improve your Ultimate Team experience.
+</p>
+
+<h2>Ultimate Team Gallery</h2>
+<p>
+Explore our gallery featuring Ultimate Team players, cards, squads,
+stadiums and other football-related content.
+</p>
+    </p>
+<h2>Enquire About Our Services</h2>
+
+<form id="enquiryForm">
+    <label for="enquiryName">Full Name:</label><br>
+    <input type="text" id="enquiryName" name="name" required minlength="2"><br><br.
+
+    <label for="enquiryEmail">Email Address:</label><br>
+    <input type="email" id="enquiryEmail" name="email" required><br><br>
+
+    <label for="enquiryType">What are you enquring about?</label><br>
+    <select id="enquiryType" name="enquiryType" required>
+        <option value="">Choose an option</option>
+        <option value="football-news">Football News</option>
+        <option value="ultimate-team">Ultimate Team Guides</option>
+        <option value="player-info">Player Information</option>
+        <option value="other">Other</option>
+    </select><br><br>
+    <label for="enquiryMessage">Your Enquiry:</label><br>
+    <textarea id="enquiryMessage" name="message" rows="5" required minlength="10"></textarea><br><br>
+
+    <button type="submit">Submit Enquiry</button>
+    <p id="enquiryFeedback" aria-live="polite"></p>
+</form>
+</main>
+<footer> &copy;St10521479</footer>
+
+    </html>

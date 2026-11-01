@@ -1,0 +1,222 @@
+<!DOCTYPE html >
+<html lang="en">
+    <head>
+        <title>gallery page</title>
+        <meta name="description" content="View the Football Ultimate Hub gallery featuring football players, stadiums, trophies and football moments.">
+        <meta name="Keywords" content="football gallery, football players,stadiums, trophies, football images">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="JS/script.js" defer></script>
+    </head>
+    <style>
+        body{
+            margin:0;
+            font-family: Arial, sans-serif;
+            background-color:#050505;
+            color:white;
+
+        }
+
+         main {
+            text-align: center;
+            padding: 40px;
+        
+
+        }
+        h1 {
+            color:#1683ff;
+            margin-bottom: 30px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            max-width: 1100px;
+            margin: auto;
+
+        }
+        .gallery img {
+            width:100%;
+            height:220px;
+            object-fit: cover;
+            border-radius: 10px; 
+            border: 2px solid #1683ff;
+        }
+        .gallery img:hover {
+            transform: scale(1.03);
+        }
+        .gallery summary {
+            list-style: none;
+
+        }
+         .gallery summary::-webkit-details-marker {
+            display: none;
+
+         }
+        nav a {
+         color: white;
+        text-decoration: none;
+        font-weight: bold;
+        margin-right: 25px;
+        }
+
+        nav a:hover {
+         color: #1683ff;
+        }
+        .lightbox {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background:rgba(0, 0, 0, 0.95);
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .lightbox img {
+            max-width: 90%;
+            max-height: 85%;
+            object-fit: contain;
+            border: 2px solid #1683ff;
+            border-radius: 10px;
+        }
+        .close-lightbox {
+            position: absolute;
+            top: 20px;
+            right: 35px;
+            color:white;
+            font-size: 45px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .close-lightbox:hover {
+            color: #1683ff;
+        }
+        .gallery img {
+            cursor: pointer;
+            transition: transform 0.3s ease;
+
+        }
+     </style> 
+     <body>
+    <header>
+    <nav>
+
+    <img src="Images/logo FUH.jpeg" 
+    alt="Football Ultimate Hub logo"
+    style="width:70px; height:85px;">
+    <div>
+    <a href="home.html">Home|</a>
+    <a href="about.html">About us</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact us</a>
+    </div>
+    </nav>
+</header>
+<main>
+    <h1><u>Football Ultimate Hub Gallery </u></h1> 
+
+     
+    <div class="gallery">
+
+    <details>
+     <summary>
+
+    <img src="Images/trophy.jpg" 
+         alt="Football trophy"
+        >
+    </summary>
+        <b>Trophies</b><br>
+            Learn about trophies in ultimate team and the achievements you can work towards.</p>
+     </details>
+    <details>
+        <summary>
+    <img src="Images/stadium.jpg" alt="Football stadium">
+
+         
+        </summary>
+         <p></b>Stadium</b><br>
+            Play in the stadium of your choosing and create the matchday atmosphere you prefer</p>
+         </details>
+
+        <details>
+        <summary>
+    <img src="Images/player.jpg" 
+         alt="Football player"
+         >
+        </summary>
+         <p><b>Players</b><br>
+            play as the players you find most interesting and build a team around the players you enjoy using </p>
+        </details>
+
+        <details>
+            <summary>
+    <img src="Images/footballcrowd.jpg" 
+         alt="Football Crowd"
+         >
+            </summary>
+            <p><b>Crowd<br>
+            Connect your team with the crowd and experience the excitement and roar of the fans</p>
+        </details>
+        <details>
+            <summary>
+    <img src="Images/silhouette 4.jpg" 
+         alt="Football player silhouette"
+         >
+            </summary>
+            <p><b>Build Your Squad<br>
+                Learn how to build a balanced Ultimate Team squad by choosing players with different strengths and abilities 
+            </p>
+        </details>
+
+        <details>
+            <summary>
+            <img src="Images/ultimate squad.jpg" alt=" Build your team"> 
+         
+            </summary>
+                <p><b>Formations</b></br>
+                    Build different formations and take them to the field
+
+
+                </p>
+            
+    
+        </details>
+     </div>
+
+     <div id="info" >
+        <h2>Explore the Ultimate Gallery</h2>
+        <p id="infoText">
+             Learn more about Football Ultimate Hub by selecting an image.
+        </p>
+
+     </div>
+     
+     <div id="lightbox" class="lightbox">
+        <span id="closeLightbox" class=""close-lightbox">&times;</span>
+        <img id="lightboxImage" src="" alt="Enlarged gallery image">
+     </div>
+
+     <br><br>
+
+    <video src="Images/fuh video.mp4" width="700" controls></video>
+        
+    
+
+     
+</main>
+<footer> &copy;St10521479</footer>
+
+
+</body>
+</html>
+
+
+   
+
+
+    
